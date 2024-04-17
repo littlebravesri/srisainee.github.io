@@ -50,7 +50,7 @@ const NavBar = () => {
                     <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </li>
                 <li>
-                    <a href="../assets/Resume.pdf" target='_blank'>Resume</a>
+                    <a href="Resume.pdf" target='_blank'>Resume</a>
                 </li>
 
 
