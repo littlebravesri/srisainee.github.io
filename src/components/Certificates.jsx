@@ -49,7 +49,7 @@ export const Certificates = () => {
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1200px] w-full  gap-8'>
                     <div className='pb-8'>
-                        <p className='text-4xl lg:m-10 font-semibold inline border-b-4 border-[#76323f]'>Certificates</p>
+                        <p className='text-4xl lg:m-10 font-semibold inline border-b-4 border-[#76323f]'>My Certificates</p>
                     </div>
                     <Slider {...settings}>
                         {certificatesLogo.map((img, id) => (

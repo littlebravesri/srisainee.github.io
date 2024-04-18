@@ -37,7 +37,7 @@ export const Contact = () => {
                 <div className='max-w-[1300px] px-4'>
                     <div className='text-[#76323f] p-3 flex gap-3 h-[100px]'>
                         <a href="https://github.com/srisainee" target='_blank'>
-                            <button className='group text-gray-700 border-2 border-gray-900 px-6 py-3 my-2 
+                            <button className='group text-[#76323f] border-2 border-[#76323f] px-6 py-3 my-2 
                     flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'> Github
                                 <span className='group-hover:rotate-[360deg] duration-700'>
                                     <FaGithub className='ml-3' />
@@ -46,8 +46,8 @@ export const Contact = () => {
                             </button>
                         </a>
                         <a href="https://www.linkedin.com/in/sri-sainee-thirumurugan" target='_blank'>
-                            <button className='group text-gray-700 border-2 border-gray-900 px-6 py-3 my-2 
-                    flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>My Linkedin
+                            <button className='group text-[#76323f] border-2 border-[#76323f] px-6 py-3 my-2 
+                    flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>Linkedin
                                 <span className='group-hover:rotate-[-360deg] duration-700'>
                                     <FaLinkedinIn className='ml-3' />
                                     {/* <HiArrowNarrowRight className='ml-3' /> */}
@@ -55,7 +55,7 @@ export const Contact = () => {
                             </button>
                         </a>
                         <a>
-                            <button className='group text-gray-700 border-2 border-gray-900 px-6 py-3 my-2 
+                            <button className='group text-[#76323f] border-2 border-[#76323f] px-6 py-3 my-2 
                     flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]' onClick={togglePopup}>Contact me
                                 <span className='group-hover:rotate-[-360deg] duration-700'>
                                     <HiOutlineMail className='ml-3' />
@@ -63,11 +63,11 @@ export const Contact = () => {
                             </button>
                         </a>
                         {showPopup && (
-                            <div className="fixed top-0 left-0 w-full h-full bg-gray-700 bg-opacity-80 flex justify-center items-center">
-                                <div className="bg-white p-8 rounded-md w-[400px] ">
+                            <div className="fixed top-0 left-0 w-full h-full bg-[#565656] bg-opacity-80 flex justify-center items-center">
+                                <div className="bg-[#D7CEC7] p-8 rounded-md w-[400px] ">
                                     <h2 className=" flex gap-5 text-xl font-bold mb-4"><BsFillPersonLinesFill className='mt-1' /> srisainee2310@gmail.com</h2>
                                     <p className=" flex gap-5 text-xl font-bold mb-4"><MdOutlinePhoneIphone className='mt-1' />+61 413931624</p>
-                                    <button onClick={togglePopup} className="text-gray-700 border border-gray-900 px-4 py-2 mt-4">Close</button>
+                                    <button onClick={togglePopup} className="text-[#76323f] border border-[#76323f]  px-4 py-2 mt-4">Close</button>
                                 </div>
                             </div>
                         )}

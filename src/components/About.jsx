@@ -22,8 +22,8 @@ export const About = () => {
                             I am a data enthusiast with a passion for turning numbers into stories.
                             By day, I am crunching data and building insightful dashboards.
                             By night, I am diving into side projects and exploring new ways to visualize trends.
-                            When I am not glued to my screen, you will find me outdoors, soaking up the sun or with my plants.
-                            I am thrilled to share my journey and projects with you here!
+                            When I am not glued to my screen, you will find me outdoors, soaking up the sun while gardening
+                            or drawing something I found on Pinterest. I am thrilled to share my journey and projects with you here!
                         </p>
                     </div>
                 </div>

@@ -43,7 +43,7 @@ const NavBar = () => {
                     <Link to="projects" smooth={true} duration={500}>Projects</Link>
                 </li>
                 <li>
-                    <Link to="certificate" smooth={true} duration={500}>Certificate</Link>
+                    <Link to="certificate" smooth={true} duration={500}>Certificates</Link>
                 </li>
                 <li>
                     <a href={Resume} target="_blank" without rel="noopener noreferrer">Resume</a>
@@ -65,7 +65,7 @@ const NavBar = () => {
                 <li className='py-6 text-4xl'> <Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
                 {/* <li className='py-6 text-4xl'> <Link onClick={handleClick} to="experience" smooth={true} duration={500}>Skills</Link></li> */}
                 <li className='py-6 text-4xl'> <Link onClick={handleClick} to="work" smooth={true} duration={500}>Projects</Link></li>
-                <li className='py-6 text-4xl'> <Link onClick={handleClick} to="certificate" smooth={true} duration={500}>Certificate</Link></li>
+                <li className='py-6 text-4xl'> <Link onClick={handleClick} to="certificate" smooth={true} duration={500}>Certificates</Link></li>
                 <li className='py-6 text-4xl'><a href={Resume} onClick={handleClick}  target="_blank" without rel="noopener noreferrer">Resume</a></li>
                 <li className='py-6 text-4xl'> <Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
             </ul>
