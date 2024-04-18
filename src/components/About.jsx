@@ -3,10 +3,10 @@ import Me from '../assets/me.jpg';
 
 export const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-[#D7CEC7] text-[#76323f] '>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
+        <div name='about' className=' bg-[#D7CEC7] text-[#76323f] '>
+            <div className='max-w-[1300px] mx-auto p-4 '>
                 <div className='max-w-[1200px] w-full grid grid-cols-2  gap-8'>
-                    <div className='pb-8 '>
+                    <div className='pb-8 pt-10 lg:pt-20'>
                         <p className='text-4xl font-semibold inline border-b-4 border-[#76323f]'>About</p>
                     </div>
                     <div></div>
