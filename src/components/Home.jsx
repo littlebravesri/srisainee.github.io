@@ -7,7 +7,7 @@ const Home = () => {
         <div name='home' className='w-full h-screen bg-[#D7CEC7] '>
             {/* Container */}
             <div className='mx-auto px-8 flex flex-col justify-center h-full items-center '>
-                <p className='text-[#76323f] text-7xl  '>Hi, my name is Sri!</p>
+                <p className='text-[#76323f] text-7xl  '>Hello, my name is Sri!</p>
                 {/* <h2 className='text-2xl sm:text-4xl font-bold text-[#8892b0] '>I'm a Data Analyst</h2> */}
                 {/* <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Sri Sainee Thirumurugan</h1> */}
                 {/* <p className='text-[#8892b0] py-4 max-w-[700px]'>is simply dummy text of the printing and typesetting industry.
