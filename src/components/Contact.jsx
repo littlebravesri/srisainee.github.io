@@ -29,7 +29,7 @@ export const Contact = () => {
             <div className='flex flex-col justify-center items-center w-full h-full '>
                 <div className='max-w-[1300px] w-full grid grid-cols-2 gap-8 '>
                     <div className='pb-8 '>
-                        <p className='lg:m-10 text-4xl font-semibold inline border-b-4 border-[#76323f]'>Contact</p>
+                        <p className='lg:m-10 text-4xl font-semibold inline border-b-4 border-[#76323f]'>Let's Connect</p>
                     </div>
                     <div></div>
                 </div>
@@ -56,7 +56,7 @@ export const Contact = () => {
                         </a>
                         <a>
                             <button className='group text-gray-700 border-2 border-gray-900 px-6 py-3 my-2 
-                    flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]' onClick={togglePopup}>Lets Collaborate
+                    flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]' onClick={togglePopup}>Contact me
                                 <span className='group-hover:rotate-[-360deg] duration-700'>
                                     <HiOutlineMail className='ml-3' />
                                 </span>
