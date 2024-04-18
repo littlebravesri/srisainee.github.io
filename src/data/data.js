@@ -13,91 +13,89 @@ import Covidstoryboard from '../assets/projects/Covidstoryboard.jpg'
 import Nlp from '../assets/projects/Nlp.png'
 import Hpe from '../assets/projects/Hpe.png'
 
-
-
 export const projects = [
     {
         title: "U.S Power Outage",
         image: PowerOutage,
         github: "https://github.com/srisainee/Power-Outage",
-        description: 'The analysis unravels the story behind the flickering lights, sudden darkness, and the determined efforts to keep the nation powered, tracing the ebb and flow of electricity over the past 2 decades',
+        description: 'Unravelling the story behind the flickering lights and sudden darkness, tracing the ebb and flow of electricity over the past 2 decades',
         skill: 'Tableau, Data Wrangling, Data Visualization, Statistics'
     },
     {
         title: "U.S HCAHPS Survey Analysis",
         image: Health,
         github: "https://github.com/srisainee/HCAHPS-Patient-Survey",
-        description: 'The analysis examins the factors influencing the rankings of hospitals across the states',
+        description: 'Examining the factors influencing the rankings of hospitals across the states',
         skill: 'Tableau, Data Wrangling, Data Visualization, Statistics'
     },
     {
-        
         title: "Crimes Statistics of Victoria",
         image: Crimes2,
         tableau: 'https://public.tableau.com/app/profile/sri.sainee.thirumurugan/viz/Crimes_17133901842910/VCS',
         live: "https://littlebravesri.shinyapps.io/Crimes/?_ga=2.186900512.902303536.1602752634-734726441.1602752634",
-        description: 'R Shiny Visualization to report the crime rates of the state.\nEnhanced the earlier version deployed on Shiny Apps, addressing flaws and showcasing growth in the updated version in Tableau',
-        skill: 'R, Data Visualization, Shiny app'
+        description: 'Elucidating historical trends and societal patterns in criminal activity in Victoria in 2023.\nEnhanced the earlier version deployed on Shiny Apps, addressing flaws and showcasing growth in the updated version in Tableau',
+        skill: 'R, Data Visualization, Shiny app, Tableau'
     },
     {
         title: "Modelling Recyclable Materials Collected and Recycled of Victoria",
         image: RMIT,
-        description: 'Capstone Project with Sustainability Victoria that visualizes the past, and the predicted values for waste collected and recycled for the councils in Victoria',
+        description: 'Capstone Project with Sustainability Victoria that visualizes the past, and predicts the amount of waste to be collected and recycled in the Victorian councils',
         skill: 'Python, Data Analysis, Data Pre-processing, Data Visualization, Machine Learning, Agile/Scrum, Time Series Analysis'
     },
     {
         title: "AI Powered Voice Assistance for Museum of London",
         image: Alexa,
-        description: 'Making Alexa to brief daily tasks to Building Management Facility staff to enable easy shift handovers and a stress free shift',
+        description: 'Programming Alexa to brief daily tasks to Building Management Facility staff to enable easy shift handovers and a stress-free shift',
         skill: 'API call, AWS, Python, Requirement Elicitation and Documentation'
     },
     {
-        title: "American Sign Language to Speech",
+        title: "Real-time American Sign Language Translation",
         image: Azureasl,
-        description: 'Converting American sign Language to Text and Speech using Azure Services',
-        skill: 'Azure, Azure ML Studio,Azure Cognitive Services, Azure App Services, Object detection, Image classification, Machine Learning, HTML, CSS, JavaScript, Flask, Python, API Calls'
+        github: "https://github.com/srisainee/ASL-to-Speech",
+        description: 'Converting real-time sign language gestures into text and speech',
+        skill: 'Azure, Azure ML Studio, Azure Cognitive Services, Azure App Services, Object detection, Image classification, Machine Learning, HTML, CSS, JavaScript, Flask, Python, API Calls'
     },
     {
-        title: "COVID-19 Analysis with PowerBI",
+        title: "COVID-19 Analysis",
         image: Covid,
         github: "https://github.com/srisainee/COVID19_Dasboard",
-        description: 'A PowerBI Dashboard to visualise and analyse the daily numbers of various aspects related to COVID-19',
+        description: 'Offering real-time insights into daily COVID-19 metrics',
         skill: 'Data Analysis, Data Visualization, Data Pre-processing, PowerBI'
     },
     {
         title: "Trainee Data Scientist",
         image: Datadisca,
         github: "https://github.com/srisainee/django_api1",
-        description: 'Django Restful API Web App',
+        description: 'Developing a web app using Django Restful API ',
         skill: 'Django REST Framework, API Calls'
     },
     {
-        title: "Sample Super Store Business Analysis with PowerBI",
+        title: "Sample Super Store Business Analysis",
         image: Superstore2,
         tableau: "https://public.tableau.com/views/SampleSuperstoreBusinessInsights/SuperStoreInsights?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link",
         powerbi: "https://github.com/srisainee/TheSparksFoundation/blob/main/BusinessReport.pdf",
-        description: 'Dashboard to visualise and analyse the sales and profit performance of the Super Store in different categories, segment and region.\nEnhanced the earlier version deployed on PowerBI, addressing flaws and showcasing growth in the updated version in Tableau',
+        description: 'Visualizing sales and profit performance by category, segment, and region for the Super Store.\nEnhanced the earlier version deployed on PowerBI, addressing flaws and showcasing growth in the updated version in Tableau',
         skill: 'Data Analysis, Data Visualization, Data Pre-processing, PowerBI'
     },
     {
-        title: "COVID-19 Storyborad with Tableau",
+        title: "COVID-19 Storyborad",
         image: Covidstoryboard,
         github: "https://github.com/srisainee/TheSparksFoundation", 
-        description: 'Performed storytelling by interactive graphs enabling easy analysis',
+        description: 'Interactive graphs narrate the COVID-19 journey, from outbreak to vaccination',
         skill: 'Data Analysis, Data Visualization, Data Pre-processing, Tableau'
     },
     {
         title: "Stance Classification",
         image: Nlp,
         github: "https://github.com/srisainee/StanceClassification", 
-        description: `Stance classification is the task of classifying the tweet based on whether the tweet is 'For' or 'Against' a given target topic. It is independent of the opinion (positive/negative) of that text`,
-        skill: 'Data Analysis, Data Visualization, Data Pre-processing, Python, Natural Language Processing, LSTM, Tensorflow, Keras'
+        description: `Classifying the tweet based on whether the tweet is 'For' or 'Against' a given target topic`,
+        skill: 'Python, Natural Language Processing, LSTM, Tensorflow, Keras'
     },
     {
         title: "Head Pose Estimation",
         image: Hpe,
         github: "https://github.com/srisainee/HeadPoseClassification", 
-        description: `This assignment is related to the head pose estimation where the goal is to develop a Deep Convolutional Neural Network to identify the head pose. Given an image of a person, classifying the images based on the tilt and pan of the head`,
+        description: `Utilizing Deep Convolutional Neural Networks to estimate head position from images with tilt and pan`,
         skill: 'CNN, Deep Learning, Image classification, Tensorflow, Keras, Python'
     },
 

@@ -6,8 +6,8 @@ const Work = () => {
   // projects file
   const project = projects;
   return (
-    <div name='projects' className='bg-[#D7CEC7] text-[#76323f] '>
-      <div className='max-w-[1300px] mx-auto p-4'>
+    <div name='projects' className='bg-[#D7CEC7] text-[#76323f]  '>
+      <div className='max-w-[1300px] mx-auto p-4 '>
         <div className='pb-8 pt-10 lg:pt-20'>
           <p className='text-4xl lg:m-10 font-semibold inline border-b-4 border-[#76323f]'>My Projects</p>
         </div>
@@ -43,7 +43,7 @@ const Work = () => {
                       <FaGithub className='ml-2 lg:ml-3 ' />
                     </a>
                   }
-                   {item.tableau &&
+                  {item.tableau &&
                     <a href={item.tableau} target="_blank" rel="noopener noreferrer" className=' border-2 border-[#76323f]  px-4 lg:px-6 py-2 lg:py-3 flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>
                       Tableau
                     </a>
