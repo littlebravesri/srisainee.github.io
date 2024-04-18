@@ -43,14 +43,14 @@ const Work = () => {
                       <FaGithub className='ml-2 lg:ml-3 ' />
                     </a>
                   }
+                   {item.tableau &&
+                    <a href={item.tableau} target="_blank" rel="noopener noreferrer" className=' border-2 border-[#76323f]  px-4 lg:px-6 py-2 lg:py-3 flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>
+                      Tableau
+                    </a>
+                  }
                   {item.powerbi &&
                     <a href={item.powerbi} target="_blank" rel="noopener noreferrer" className=' border-2 border-[#76323f]  px-4 lg:px-6 py-2 lg:py-3 flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>
                       PowerBI
-                    </a>
-                  }
-                  {item.tableau &&
-                    <a href={item.tableau} target="_blank" rel="noopener noreferrer" className='border-2 border-[#76323f]px-4 lg:px-6 py-2 lg:py-3 flex items-center hover:bg-[#c09f80] hover:border-[#c09f80]'>
-                      Tableau
                     </a>
                   }
                   {item.live &&

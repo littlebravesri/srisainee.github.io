@@ -31,8 +31,10 @@ export const projects = [
         skill: 'Tableau, Data Wrangling, Data Visualization, Statistics'
     },
     {
+        
         title: "Crimes Statistics of Victoria",
         image: Crimes2,
+        tableau: 'https://public.tableau.com/app/profile/sri.sainee.thirumurugan/viz/Crimes_17133901842910/VCS',
         live: "https://littlebravesri.shinyapps.io/Crimes/?_ga=2.186900512.902303536.1602752634-734726441.1602752634",
         description: 'R Shiny Visualization to report the crime rates of the state.\nEnhanced the earlier version deployed on Shiny Apps, addressing flaws and showcasing growth in the updated version in Tableau',
         skill: 'R, Data Visualization, Shiny app'
@@ -72,7 +74,7 @@ export const projects = [
     {
         title: "Sample Super Store Business Analysis with PowerBI",
         image: Superstore2,
-        github: "",
+        tableau: "https://public.tableau.com/views/SampleSuperstoreBusinessInsights/SuperStoreInsights?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link",
         powerbi: "https://github.com/srisainee/TheSparksFoundation/blob/main/BusinessReport.pdf",
         description: 'Dashboard to visualise and analyse the sales and profit performance of the Super Store in different categories, segment and region.\nEnhanced the earlier version deployed on PowerBI, addressing flaws and showcasing growth in the updated version in Tableau',
         skill: 'Data Analysis, Data Visualization, Data Pre-processing, PowerBI'

@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLink } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll'
-import '../assets/Resume.pdf'
-
+import { Link } from 'react-scroll';
+import Resume from './Sri_Sainee_Thirumurugan.pdf';
 import Logo from '../assets/logo.png'
+
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -14,7 +14,6 @@ const NavBar = () => {
     const handleClick = () => {
         setNav(!nav)
     }
-
     return (
         <div className='fixed w-full h-[80px] flex justify-between
          items-center px-4 bg-[#D7CEC7] text-[#76323f] text-2xl shadow-md '>
@@ -50,8 +49,9 @@ const NavBar = () => {
                     <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </li>
                 <li>
-                    <a href="Resume.pdf" target='_blank'>Resume</a>
+                    <a href={Resume} target="_blank" without rel="noopener noreferrer">Resume</a>
                 </li>
+
 
 
             </ul>
