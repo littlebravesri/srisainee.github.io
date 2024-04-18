@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.55495ab1.css",
-    "main.js": "/portfolio/static/js/main.25eb2475.js",
+    "main.js": "/portfolio/static/js/main.b30f6d80.js",
     "static/media/sparks.png": "/portfolio/static/media/sparks.fcaf0078943b47a865eb.png",
     "static/media/Covid.png": "/portfolio/static/media/Covid.4c7bd6259689fbc5535e.png",
     "static/media/Health.png": "/portfolio/static/media/Health.7dcad3c236d93ddde06e.png",
@@ -20,7 +20,7 @@
     "static/media/udacity.png": "/portfolio/static/media/udacity.2b96567706c364c7d245.png",
     "static/media/Superstore2.png": "/portfolio/static/media/Superstore2.46b18df8db3f902c2343.png",
     "static/media/logo.png": "/portfolio/static/media/logo.7ed42caf1761f7568a18.png",
-    "static/media/Datadisca.png": "/portfolio/static/media/Datadisca.1c28d08637590db2f420.png",
+    "static/media/Datadisca.png": "/portfolio/static/media/Datadisca.71749a85b239fe71446e.png",
     "static/media/Nlp.png": "/portfolio/static/media/Nlp.6b38d5846157dda1280d.png",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -28,10 +28,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.55495ab1.css.map": "/portfolio/static/css/main.55495ab1.css.map",
-    "main.25eb2475.js.map": "/portfolio/static/js/main.25eb2475.js.map"
+    "main.b30f6d80.js.map": "/portfolio/static/js/main.b30f6d80.js.map"
   },
   "entrypoints": [
     "static/css/main.55495ab1.css",
-    "static/js/main.25eb2475.js"
+    "static/js/main.b30f6d80.js"
   ]
 }
