@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.55495ab1.css",
-    "main.js": "/portfolio/static/js/main.b30f6d80.js",
+    "main.js": "/portfolio/static/js/main.c954b11e.js",
     "static/media/sparks.png": "/portfolio/static/media/sparks.fcaf0078943b47a865eb.png",
     "static/media/Covid.png": "/portfolio/static/media/Covid.4c7bd6259689fbc5535e.png",
     "static/media/Health.png": "/portfolio/static/media/Health.7dcad3c236d93ddde06e.png",
     "static/media/RMIT.png": "/portfolio/static/media/RMIT.8ad395280b30ae6efee4.png",
     "static/media/baf.png": "/portfolio/static/media/baf.8959772a31c31ae80a21.png",
-    "static/media/Sri_Sainee_Thirumurugan.pdf": "/portfolio/static/media/Sri_Sainee_Thirumurugan.dfd3fea1b6bb52c09d57.pdf",
+    "static/media/Sri_Sainee_Thirumurugan.pdf": "/portfolio/static/media/Sri_Sainee_Thirumurugan.e15cc90b37bc73c1c99f.pdf",
     "static/media/Crimes2.png": "/portfolio/static/media/Crimes2.2bf3ffbdbc8922a34e10.png",
     "static/media/PowerOutage.png": "/portfolio/static/media/PowerOutage.7ca15a2252fc231b912a.png",
     "static/media/msa.png": "/portfolio/static/media/msa.dc8640e4607e33712a8f.png",
@@ -28,10 +28,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.55495ab1.css.map": "/portfolio/static/css/main.55495ab1.css.map",
-    "main.b30f6d80.js.map": "/portfolio/static/js/main.b30f6d80.js.map"
+    "main.c954b11e.js.map": "/portfolio/static/js/main.c954b11e.js.map"
   },
   "entrypoints": [
     "static/css/main.55495ab1.css",
-    "static/js/main.b30f6d80.js"
+    "static/js/main.c954b11e.js"
   ]
 }
